@@ -22,7 +22,7 @@
 
 <br/>
 
-**UniMates** is your ultimate companion app for finding amazing connections at university! 🌸 Whether you need a study partner for that tough exam, a gym buddy to keep you motivated, or just someone to grab coffee with between classes — we've got you covered! 💪☕
+**UniMates** is your ultimate companion app for finding amazing connections at university! 🌸 Whether you need a study partner for that tough exam, a gym buddy to keep you motivated, or just someone to grab coffee with between classes ; we've got you covered! 💪☕
 
 *Making campus life less lonely, one connection at a time* 🦋
 
