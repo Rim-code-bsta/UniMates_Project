@@ -1,159 +1,230 @@
-# 🎓 UniMates
+<div align="center">
 
-> Connecting university students for study sessions, activities, and meaningful campus experiences
+# 🎓✨ UniMates
 
-UniMates is a mobile application designed to help university students find compatible peers for various activities—from study sessions and gym workouts to social events and volunteering. Built with safety and accessibility at its core, UniMates creates a verified community where students can build connections based on shared interests and goals.
+### *Find Your Perfect Study Buddy & Campus BFF* 💕
+
+[![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+
+<br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-In_Development-ff69b4?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/Made%20with-💖-ff1493?style=flat-square" alt="Made with love"/>
+  <img src="https://img.shields.io/badge/University-AUI-9370db?style=flat-square" alt="University"/>
+  <img src="https://img.shields.io/badge/Team-Girl_Power-ff69b4?style=flat-square" alt="Team"/>
+</p>
+
+<br/>
+
+**UniMates** is your ultimate companion app for finding amazing connections at university! 🌸 Whether you need a study partner for that tough exam, a gym buddy to keep you motivated, or just someone to grab coffee with between classes — we've got you covered! 💪☕
+
+*Making campus life less lonely, one connection at a time* 🦋
+
+[🚀 Getting Started](#-getting-started) •
+[✨ Features](#-features) •
+[🛠️ Tech Stack](#️-tech-stack) •
+[👭 Our Team](#-team)
+
+</div>
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><b>🏠 Discover Your Match</b></td>
+    <td align="center"><b>💬 Chat & Connect</b></td>
+  </tr>
+  <tr>
+    <td><i>Swipe through profiles and find your perfect study buddy!</i> 🎯</td>
+    <td><i>Message your matches and plan your next hangout</i> 💭</td>
+  </tr>
+  <tr>
+    <td align="center"><b>👤 Customize Your Vibe</b></td>
+    <td align="center"><b>🔔 Never Miss a Match</b></td>
+  </tr>
+  <tr>
+    <td><i>Set up your profile with interests, schedule & goals</i> ✨</td>
+    <td><i>Get instant notifications for new connections</i> 🎉</td>
+  </tr>
+</table>
+</div>
+
+---
+
+## 🌟 About The Project
+
+**UniMates** is designed specifically for university students who want to make meaningful connections on campus! We know how hard it can be to find people who share your study schedule, workout routine, or weekend plans. That's why we created an app that makes finding your tribe super easy! 🎀
+
+### 💭 The Problem
+
+Ever felt like you're the only one studying for that 8 AM exam? Or wanted a gym buddy but didn't know who to ask? Campus life can feel isolating when you can't find people who match your energy and schedule! 😔
+
+### 💖 Our Solution
+
+UniMates uses smart AI matching to connect you with students who share your:
+- 📚 Study goals & academic interests
+- 🏃‍♀️ Activity preferences (gym, yoga, sports!)
+- ⏰ Availability & schedule
+- 🎯 Purpose (study partner, workout buddy, social hangout)
+
+Plus, with built-in safety features and university verification, you can connect with confidence! 🛡️✨
 
 ---
 
 ## ✨ Features
 
-### Core Functionality
-- **Smart Matching Algorithm** - Get matched with peers based on shared interests, availability, and goals
-- **Multi-Purpose Requests** - Find partners for studying, gym, coffee, walks, events, and more
-- **Real-Time Notifications** - Instant alerts for new matches, requests, and messages
-- **Secure Messaging** - Chat safely with matched users before meeting in person
-- **Flexible Profiles** - Customize your profile with major, year, interests, and availability
+<table>
+<tr>
+<td>
 
-### Safety & Verification
-- **University Email Verification** - Ensures all users are verified students
-- **Report & Block System** - Tools to maintain a safe, respectful community
-- **Automatic Account Restrictions** - Flagged accounts are immediately restricted
+### 💕 Core Features
+- **Smart Matching** — AI finds your perfect match based on interests & goals
+- **Secure Sign-Up** — University email verification keeps it safe 🔐
+- **Real-Time Chat** — Message your matches instantly 💬
+- **Custom Profiles** — Share your major, interests & availability
+- **Multi-Purpose Requests** — Study, gym, coffee dates & more! ☕
 
-### Accessibility
-- **Text-to-Speech** - Full screen reader support for visually impaired users
-- **Voice Commands** - Navigate and create requests using voice
-- **Customizable Settings** - Enable/disable accessibility features as needed
+</td>
+<td>
 
-### Feedback System
-- **Post-Meeting Ratings** - Rate your experience after each interaction
-- **Continuous Improvement** - Feedback helps refine matching algorithms
+### 🌸 Special Features
+- **🤖 AI Match Insights** — See why you matched!
+- **🔔 Push Notifications** — Never miss a connection
+- **⭐ Rate Your Experiences** — Help improve matches
+- **🚨 Report & Block** — Stay safe on campus
+- **♿ Accessibility** — Text-to-speech & voice commands
+- **🌍 Multi-Language** — English & French support
 
----
+</td>
+</tr>
+</table>
 
-## 🏗️ Tech Stack
+### 🎯 What Can You Find on UniMates?
 
-### Frontend
-- **Framework:** React Native with TypeScript
-- **State Management:** Redux
-- **UI/UX:** Consistent, intuitive mobile-first design
+<div align="center">
 
-### Backend
-- **API Server:** Node.js (Express)
-- **ML Processing:** Python (FastAPI)
-- **Real-time Features:** Socket.IO
+| Activity | Description | Perfect For |
+|:--------:|:------------|:------------|
+| 📚 **Study Squad** | Find classmates to ace that exam together! | Late-night study sessions, group projects, exam prep |
+| 💪 **Gym Buddies** | Stay motivated with a workout partner | Morning runs, gym sessions, yoga classes |
+| ☕ **Coffee Dates** | Meet new friends over a latte | Social hangouts, campus exploring, weekend plans |
+| 🎨 **Hobby Pals** | Connect with creative minds | Art projects, music jams, photography walks |
+| 🌱 **Volunteer Teams** | Make a difference together | Community service, charity events, sustainability projects |
 
-### Database
-- **Primary:** PostgreSQL
-- **Real-time Data:** Firebase Firestore (hybrid approach)
-
-### Infrastructure & Services
-- **Cloud Hosting:** AWS (EC2, S3)
-- **Authentication:** Firebase Auth + JWT + bcrypt
-- **Notifications:** Firebase Cloud Messaging
-- **Accessibility:** Google Cloud Speech API, Expo Speech
-- **Messaging:** Firebase Realtime Database
-
-### AI & Machine Learning
-- **Matching Logic:** scikit-learn, Pandas
-- **Algorithm:** Purpose-based compatibility scoring with availability overlap
+</div>
 
 ---
 
-## 📋 Requirements
+## 🛠️ Tech Stack
 
-### Functional Requirements
+<div align="center">
 
-1. **User Profiles** - Create and edit profiles with name, major, year, interests, availability, and purpose
-2. **Intelligent Matching** - Algorithm matches users based on compatibility and ranks by relevance
-3. **Instant Notifications** - Real-time alerts for matches, requests, and messages
-4. **Accessibility Support** - Text-to-speech and voice commands across all screens
-5. **Safety First** - University email verification, reporting, and blocking capabilities
-6. **Secure Messaging** - In-app chat for matched users
-7. **Dynamic Goals** - Select different purposes for each request
-8. **Feedback Loop** - Rate experiences to improve matching quality
+### 💻 Frontend (Mobile App)
+| Technology | Why We Love It |
+|:----------:|:---------------|
+| ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) | Beautiful cross-platform mobile experience 📱 |
+| ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) | Type-safe code = fewer bugs! 🐛 |
+| ![Redux](https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white) | Smooth state management ✨ |
 
-### Non-Functional Requirements
+### ⚙️ Backend (Server Magic)
+| Technology | Why We Love It |
+|:----------:|:---------------|
+| ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white) | Fast & scalable API server 🚀 |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Powers our smart AI matching 🧠 |
+| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) | Reliable database storage 💾 |
+| ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) | Real-time updates & auth 🔥 |
 
-#### Performance
-- **Load Time:** < 1 second for all screens
-- **Matching Speed:** < 0.5 seconds for results
-- **Scalability:** Supports 50-100 concurrent users
+### 🤖 AI & Intelligence
+| Technology | Why We Love It |
+|:----------:|:---------------|
+| ![scikit-learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) | Smart matching algorithm 💡 |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | Data processing power 📊 |
 
-#### Security
-- **Encryption:** HTTPS in transit, encrypted at rest
-- **Authentication:** University SSO integration
-- **Privacy Controls:** Users control visibility of personal details
+### ☁️ Cloud & Services
+| Technology | Why We Love It |
+|:----------:|:---------------|
+| ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) | Secure cloud hosting 🌐 |
+| ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white) | Instant messaging magic ⚡ |
 
-#### Reliability
-- **Uptime:** 99% availability
-- **Backup:** Daily automated backups
-- **Recovery:** < 10 minutes recovery time
+</div>
 
-#### Code Quality
-- **Test Coverage:** Minimum 80% unit test coverage
-- **Documentation:** Modular, well-documented codebase
-- **Internationalization:** Support for English and French
+---
+
+## 📁 Project Structure
+
+```
+UniMates/ 🏠
+├── 📱 frontend/                    # Mobile App
+│   ├── 🎨 components/             # UI Components
+│   ├── 🧭 navigation/             # App Navigation
+│   ├── 🎯 screens/                # App Screens
+│   ├── 🔧 services/               # API Services
+│   └── 💅 styles/                 # App Styling
+│
+├── 🖥️ backend/                     # API Server
+│   ├── 🛣️ routes/                 # API Routes
+│   ├── 📊 controllers/            # Logic Handlers
+│   ├── 🗄️ models/                 # Database Models
+│   └── 🔐 middleware/             # Auth & Security
+│
+├── 🤖 ml-service/                  # AI Matching Engine
+│   ├── 🧠 algorithms/             # Matching Logic
+│   └── 📈 training/               # Model Training
+│
+└── 📚 docs/                        # Documentation
+    ├── 📋 SRD.pdf                 # System Requirements
+    └── 📝 PRD.pdf                 # Product Requirements
+```
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-```bash
-Node.js >= 16.x
-Python >= 3.8
-PostgreSQL >= 13
-React Native CLI
-Firebase account
-AWS account
-```
+### 💝 Prerequisites
 
-### Installation
+Before diving in, make sure you have:
 
-1. **Clone the repository**
+- 💻 **Node.js** `v16+` — [Download here](https://nodejs.org/)
+- 🐍 **Python** `v3.8+` — [Download here](https://python.org/)
+- 📦 **npm** or **yarn** — Package manager
+- 🗃️ **PostgreSQL** `v13+` — [Download here](https://postgresql.org/)
+- 📱 **React Native CLI** — For mobile development
+
+### 🎀 Quick Start Guide
+
 ```bash
+# 1️⃣ Clone our lovely repo
 git clone https://github.com/yourusername/unimates.git
 cd unimates
-```
 
-2. **Install frontend dependencies**
-```bash
+# 2️⃣ Install frontend dependencies
 cd frontend
 npm install
-```
 
-3. **Install backend dependencies**
-```bash
-cd backend
+# 3️⃣ Install backend dependencies
+cd ../backend
 npm install
 
-cd ml-service
+# 4️⃣ Set up Python environment
+cd ../ml-service
 pip install -r requirements.txt
-```
 
-4. **Configure environment variables**
-```bash
-# Create .env file in backend directory
-cp .env.example .env
-
-# Add your configuration:
-# - Database credentials
-# - Firebase config
-# - AWS credentials
-# - JWT secret
-```
-
-5. **Initialize database**
-```bash
-cd backend
+# 5️⃣ Set up your database
+cd ../backend
 npm run db:migrate
 npm run db:seed
-```
 
-6. **Start the application**
-```bash
-# Terminal 1 - Backend API
+# 6️⃣ Start the magic! ✨
+# Terminal 1 - Backend
 cd backend
 npm run dev
 
@@ -161,40 +232,205 @@ npm run dev
 cd ml-service
 python main.py
 
-# Terminal 3 - React Native
+# Terminal 3 - Mobile App
 cd frontend
-npm run ios     # for iOS
-npm run android # for Android
+npm run ios     # for iPhone 🍎
+npm run android # for Android 🤖
+```
+
+### 🔑 Environment Setup
+
+Create a `.env` file in both `backend/` and `frontend/`:
+
+**Backend `.env`:**
+```env
+# Database 🗄️
+DATABASE_URL=postgresql://username:password@localhost:5432/unimates
+
+# Firebase 🔥
+FIREBASE_API_KEY=your_firebase_key
+FIREBASE_PROJECT_ID=your_project_id
+
+# JWT Secret 🔐
+JWT_SECRET=your_super_secret_key
+
+# AWS ☁️
+AWS_ACCESS_KEY=your_aws_key
+AWS_SECRET_KEY=your_aws_secret
+```
+
+**Frontend `.env`:**
+```env
+# API Endpoints 🌐
+API_URL=http://localhost:3000
+WS_URL=ws://localhost:3000
+
+# Firebase 🔥
+FIREBASE_API_KEY=your_firebase_key
 ```
 
 ---
 
-## 👥 Team
+## 📜 Available Commands
 
-- **Salma Madoud** - 148586
-- **Rim Bousta** - 149871
-- **Rami Mazaoui** - 155665
-- **Hassan Hankir** - 117263
-- **Hadil Raad** - 155882
+| Command | What It Does | When To Use |
+|---------|--------------|-------------|
+| `npm run dev` | 🎬 Start development mode | Daily development |
+| `npm run build` | 📦 Build for production | Before deployment |
+| `npm test` | 🧪 Run tests | Before committing |
+| `npm run lint` | ✨ Check code style | Keep code pretty! |
 
 ---
 
-## 📄 License
+## 🎯 How It Works
 
-[Add your license here - MIT, Apache 2.0, etc.]
+### The Matching Magic 🪄
+
+1. **Create Your Profile** 👤
+   - Add your interests, major, and availability
+   - Set your goals (study, gym, social, etc.)
+
+2. **Smart AI Matching** 🤖
+   - Our algorithm finds compatible matches
+   - Based on shared interests & overlapping schedules
+   - Ranked by relevance score
+
+3. **Connect & Chat** 💬
+   - Accept matches you like
+   - Start chatting instantly
+   - Plan your meetup!
+
+4. **Stay Safe** 🛡️
+   - University verification required
+   - Report & block features
+   - Rate your experiences
+
+---
+
+## 📊 Key Requirements
+
+### ⚡ Performance Goals
+- **Lightning Fast** — App loads in < 1 second ⚡
+- **Smart Matching** — Results in < 0.5 seconds 🎯
+- **Scalable** — Supports 50-100 concurrent users 👥
+
+### 🔒 Security First
+- **Encrypted** — All data protected (HTTPS + at rest) 🔐
+- **Verified** — University email required ✅
+- **Private** — You control what others see 👀
+
+### 💯 Reliability
+- **Always On** — 99% uptime guarantee 🌟
+- **Safe Data** — Daily backups 💾
+- **Quick Recovery** — < 10 min downtime 🚀
+
+---
+
+## 🎓 Course Information
+
+<div align="center">
+
+| 📚 Course Info | Details |
+|:--------------|:--------|
+| **Course** | Software Engineering |
+| **Professor** | Dr. Hoda |
+| **University** | Al Akhawayn University in Ifrane 🏛️ |
+| **Semester** | Fall 2024 |
+| **Team Size** | 5 Amazing Students! 🌟 |
+
+</div>
+
+---
+
+## 👭 Team
+
+<div align="center">
+
+### 💖 Meet the Dream Team! 💖
+
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/👩‍💻-Salma_Madoud-ff69b4?style=for-the-badge" alt="Salma"/>
+<br/>
+<sub><b>148586</b></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/👩‍💻-Rim_Bousta-ff1493?style=for-the-badge" alt="Rim"/>
+<br/>
+<sub><b>149871</b></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/👨‍💻-Rami_Mazaoui-9370db?style=for-the-badge" alt="Rami"/>
+<br/>
+<sub><b>155665</b></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/👨‍💻-Hassan_Hankir-8a2be2?style=for-the-badge" alt="Hassan"/>
+<br/>
+<sub><b>117263</b></sub>
+</td>
+<td align="center" width="20%">
+<img src="https://img.shields.io/badge/👩‍💻-Hadil_Raad-ff69b4?style=for-the-badge" alt="Hadil"/>
+<br/>
+<sub><b>155882</b></sub>
+</td>
+</tr>
+</table>
+
+*Five brilliant minds, one amazing app!* ✨
+
+</div>
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
+We love feedback and contributions! 💕
+
+1. 🍴 Fork the repository
+2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💅 Make your changes pretty
+4. ✅ Test everything
+5. 📝 Commit your changes (`git commit -m '✨ Add some AmazingFeature'`)
+6. 🚀 Push to the branch (`git push origin feature/AmazingFeature`)
+7. 🎉 Open a Pull Request
 
 ---
 
-## 📞 Support
+## 📄 License
 
-For questions or issues, please open an issue on GitHub or contact the team.
+This project is for **educational purposes** as part of our Software Engineering course at Al Akhawayn University. Made with lots of ☕ and 💖!
 
 ---
 
-**Made with ❤️ by the UniMates Team**
+## 🎉 Special Thanks
+
+- 🌟 **Dr. Hoda** — For the amazing guidance!
+- 💜 **AUI Community** — For inspiring this project
+- 🎓 **Our Classmates** — For the feedback and support
+- ☕ **Coffee** — Our coding companion
+
+---
+
+<div align="center">
+
+### ⭐ If you love what we're building, give us a star! ⭐
+
+<br/>
+
+**Made with 💖 by students, for students**
+
+<br/>
+
+<img src="https://img.shields.io/badge/🦋_UniMates_-Making_Campus_Life_Better-ff69b4?style=for-the-badge" alt="UniMates"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Al_Akhawayn_University-Ifrane,_Morocco-9370db?style=for-the-badge" alt="AUI"/>
+
+<br/><br/>
+
+*"Finding your tribe shouldn't be hard. Let UniMates help!"* 🌸
+
+</div>
