@@ -177,13 +177,9 @@ UniMates/ 🏠
 │   └── 🔐 middleware/             # Auth & Security
 │
 ├── 🤖 ml-service/                  # AI Matching Engine
-│   ├── 🧠 algorithms/             # Matching Logic
-│   └── 📈 training/               # Model Training
-│
-└── 📚 docs/                        # Documentation
-    ├── 📋 SRD.pdf                 # System Requirements
-    └── 📝 PRD.pdf                 # Product Requirements
-```
+    ├── 🧠 algorithms/             # Matching Logic
+    └── 📈 training/               # Model Training
+
 
 ---
 
@@ -203,7 +199,7 @@ Before diving in, make sure you have:
 
 ```bash
 # 1️⃣ Clone our lovely repo
-git clone https://github.com/yourusername/unimates.git
+git clone https://github.com/Rim-code-bsta/unimates.git
 cd unimates
 
 # 2️⃣ Install frontend dependencies
@@ -335,7 +331,7 @@ FIREBASE_API_KEY=your_firebase_key
 | **Course** | Software Engineering |
 | **Professor** | Dr. Hoda |
 | **University** | Al Akhawayn University in Ifrane 🏛️ |
-| **Semester** | Fall 2024 |
+| **Semester** | Fall 2025 |
 | **Team Size** | 5 Amazing Students! 🌟 |
 
 </div>
