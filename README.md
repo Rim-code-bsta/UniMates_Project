@@ -393,6 +393,15 @@ describe('calculateMatchScore', () => {
 
 ---
 
+## 📄 Documentation
+
+All project documents are available in the [`docs/`](./docs) folder:
+
+- **PRD** — Product Requirements Document
+- **SRD** — Software Requirements Document
+
+You can view or download them directly from the folder.
+
 ## 🤝 Contributing
 
 We love feedback and contributions! 💕
