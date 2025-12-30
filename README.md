@@ -22,7 +22,7 @@
 
 <br/>
 
-**UniMates** is your ultimate companion app for finding amazing connections at university! 🌸 Whether you need a study partner for that tough exam, a gym buddy to keep you motivated, or just someone to grab coffee with between classes ; we've got you covered! 💪☕
+**UniMates** is your ultimate companion app for finding amazing connections at university! 🌸 Whether you need a study partner for that tough exam, a gym buddy to keep you motivated, or just someone to grab coffee with between classes — we've got you covered! 💪☕
 
 *Making campus life less lonely, one connection at a time* 🦋
 
@@ -177,9 +177,13 @@ UniMates/ 🏠
 │   └── 🔐 middleware/             # Auth & Security
 │
 ├── 🤖 ml-service/                  # AI Matching Engine
-    ├── 🧠 algorithms/             # Matching Logic
-    └── 📈 training/               # Model Training
-
+│   ├── 🧠 algorithms/             # Matching Logic
+│   └── 📈 training/               # Model Training
+│
+└── 📚 docs/                        # Documentation
+    ├── 📋 SRD.pdf                 # System Requirements
+    └── 📝 PRD.pdf                 # Product Requirements
+```
 
 ---
 
@@ -199,7 +203,7 @@ Before diving in, make sure you have:
 
 ```bash
 # 1️⃣ Clone our lovely repo
-git clone https://github.com/Rim-code-bsta/unimates.git
+git clone https://github.com/yourusername/unimates.git
 cd unimates
 
 # 2️⃣ Install frontend dependencies
@@ -278,6 +282,65 @@ FIREBASE_API_KEY=your_firebase_key
 
 ---
 
+## 🧪 Testing
+
+UniMates uses **Vitest** for unit testing to ensure everything works perfectly! 💯 Tests are located alongside source files with the `.test.ts` extension.
+
+### Running Tests ✨
+
+```bash
+# Run tests in watch mode 👀
+npm test
+
+# Run tests once (CI mode) 🚀
+npm test -- --run
+```
+
+### Test Example 📝
+
+The `calculateMatchScore` utility function calculates compatibility between users based on shared interests:
+
+```typescript
+// utils.ts
+export function calculateMatchScore(interestsA: string[], interestsB: string[]) {
+  const shared = interestsA.filter(i => interestsB.includes(i));
+  return shared.length * 10; // each shared interest = +10 score
+}
+```
+
+```typescript
+// utils.test.ts
+describe('calculateMatchScore', () => {
+  it('returns correct score based on shared interests', () => {
+    const a = ['Coding', 'Basketball', 'Music'];
+    const b = ['Music', 'Cooking', 'Coding'];
+
+    const score = calculateMatchScore(a, b);
+
+    expect(score).toBe(20); // 2 shared interests * 10 = 20
+  });
+});
+```
+
+### Test Results 🎉
+
+<div align="center">
+
+*All tests passing!* ✅💖
+
+</div>
+
+```
+ ✓ utils.test.ts (1 test) 4ms
+   ✓ calculateMatchScore
+     ✓ returns correct score based on shared interests
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+```
+
+---
+
 ## 🎯 How It Works
 
 ### The Matching Magic 🪄
@@ -331,7 +394,7 @@ FIREBASE_API_KEY=your_firebase_key
 | **Course** | Software Engineering |
 | **Professor** | Dr. Hoda |
 | **University** | Al Akhawayn University in Ifrane 🏛️ |
-| **Semester** | Fall 2025 |
+| **Semester** | Fall 2024 |
 | **Team Size** | 5 Amazing Students! 🌟 |
 
 </div>
