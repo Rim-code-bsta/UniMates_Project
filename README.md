@@ -22,7 +22,7 @@
 
 <br/>
 
-**UniMates** is your ultimate companion app for finding amazing connections at university! 🌸 Whether you need a study partner for that tough exam, a gym buddy to keep you motivated, or just someone to grab coffee with between classes — we've got you covered! 💪☕
+**UniMates** is your ultimate companion app for finding amazing connections at university! 🌸 Whether you need a study partner for that tough exam, a gym buddy to keep you motivated, or just someone to grab coffee with between classes ; we've got you covered! 💪☕
 
 *Making campus life less lonely, one connection at a time* 🦋
 
@@ -66,7 +66,7 @@
 
 ### 💭 The Problem
 
-Ever felt like you're the only one studying for that 8 AM exam? Or wanted a gym buddy but didn't know who to ask? Campus life can feel isolating when you can't find people who match your energy and schedule! 😔
+Ever felt like you're the only one studying for that 8 AM exam? Or wanted a gym buddy at 1 am but didn't know who to ask? Campus life can feel isolating when you can't find people who match your energy and schedule! 😔
 
 ### 💖 Our Solution
 
@@ -163,26 +163,29 @@ Plus, with built-in safety features and university verification, you can connect
 
 ```
 UniMates/ 🏠
-├── 📱 frontend/                    # Mobile App
-│   ├── 🎨 components/             # UI Components
-│   ├── 🧭 navigation/             # App Navigation
-│   ├── 🎯 screens/                # App Screens
-│   ├── 🔧 services/               # API Services
-│   └── 💅 styles/                 # App Styling
+├── 📂 components/              # React UI Components
+│   ├── Auth.tsx               # 🔐 Login & Registration
+│   ├── Home.tsx               # 🏠 Discovery & Matching
+│   ├── ChatRoom.tsx           # 💬 Direct Messaging
+│   ├── ChatList.tsx           # 📋 Conversation List
+│   ├── Profile.tsx            # 👤 User Profile View
+│   ├── ProfileSetup.tsx       # ✏️ Profile Configuration
+│   ├── Settings.tsx           # ⚙️ App Settings
+│   ├── UserProfile.tsx        # 👥 Other User Profiles
+│   ├── AdminDashboard.tsx     # 🛡️ Admin Controls
+│   └── Layout.tsx             # 📐 App Layout Wrapper
 │
-├── 🖥️ backend/                     # API Server
-│   ├── 🛣️ routes/                 # API Routes
-│   ├── 📊 controllers/            # Logic Handlers
-│   ├── 🗄️ models/                 # Database Models
-│   └── 🔐 middleware/             # Auth & Security
+├── 📂 services/
+│   ├── dbService.ts           # 🗄️ Database Operations
+│   └── geminiService.ts       # 🤖 AI Integration
 │
-├── 🤖 ml-service/                  # AI Matching Engine
-│   ├── 🧠 algorithms/             # Matching Logic
-│   └── 📈 training/               # Model Training
-│
-└── 📚 docs/                        # Documentation
-    ├── 📋 SRD.pdf                 # System Requirements
-    └── 📝 PRD.pdf                 # Product Requirements
+├── App.tsx                    # 🚀 Main App Component
+├── types.ts                   # 📝 TypeScript Interfaces
+├── index.tsx                  # 📍 Entry Point
+├── index.html                 # 🌐 HTML Template
+├── vite.config.ts             # ⚡ Vite Configuration
+├── tsconfig.json              # 🔧 TypeScript Config
+└── package.json               # 📦 Dependencies
 ```
 
 ---
@@ -193,81 +196,38 @@ UniMates/ 🏠
 
 Before diving in, make sure you have:
 
-- 💻 **Node.js** `v16+` — [Download here](https://nodejs.org/)
-- 🐍 **Python** `v3.8+` — [Download here](https://python.org/)
+- 💻 **Node.js** `v18+` — [Download here](https://nodejs.org/)
 - 📦 **npm** or **yarn** — Package manager
-- 🗃️ **PostgreSQL** `v13+` — [Download here](https://postgresql.org/)
-- 📱 **React Native CLI** — For mobile development
+- 📝 **Git** — Version control
 
 ### 🎀 Quick Start Guide
 
 ```bash
-# 1️⃣ Clone our lovely repo
-git clone https://github.com/yourusername/unimates.git
-cd unimates
+# 1️⃣ Clone the repository
+git clone https://github.com/Rim-code-bsta/UniMates.git
 
-# 2️⃣ Install frontend dependencies
-cd frontend
+# 2️⃣ Navigate to the project
+cd UniMates
+
+# 3️⃣ Install dependencies
 npm install
 
-# 3️⃣ Install backend dependencies
-cd ../backend
-npm install
-
-# 4️⃣ Set up Python environment
-cd ../ml-service
-pip install -r requirements.txt
-
-# 5️⃣ Set up your database
-cd ../backend
-npm run db:migrate
-npm run db:seed
-
-# 6️⃣ Start the magic! ✨
-# Terminal 1 - Backend
-cd backend
+# 4️⃣ Start the development server
 npm run dev
-
-# Terminal 2 - ML Service
-cd ml-service
-python main.py
-
-# Terminal 3 - Mobile App
-cd frontend
-npm run ios     # for iPhone 🍎
-npm run android # for Android 🤖
 ```
+
+The app will be available at `http://localhost:5173` 🎉
 
 ### 🔑 Environment Setup
 
-Create a `.env` file in both `backend/` and `frontend/`:
+Create a `.env` file in the root directory:
 
-**Backend `.env`:**
 ```env
-# Database 🗄️
-DATABASE_URL=postgresql://username:password@localhost:5432/unimates
-
-# Firebase 🔥
-FIREBASE_API_KEY=your_firebase_key
-FIREBASE_PROJECT_ID=your_project_id
-
-# JWT Secret 🔐
-JWT_SECRET=your_super_secret_key
-
-# AWS ☁️
-AWS_ACCESS_KEY=your_aws_key
-AWS_SECRET_KEY=your_aws_secret
+# Google Gemini API Key (for AI features)
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-**Frontend `.env`:**
-```env
-# API Endpoints 🌐
-API_URL=http://localhost:3000
-WS_URL=ws://localhost:3000
-
-# Firebase 🔥
-FIREBASE_API_KEY=your_firebase_key
-```
+> 💡 **Get your Gemini API key** at [Google AI Studio](https://makersuite.google.com/app/apikey)
 
 ---
 
@@ -275,10 +235,10 @@ FIREBASE_API_KEY=your_firebase_key
 
 | Command | What It Does | When To Use |
 |---------|--------------|-------------|
-| `npm run dev` | 🎬 Start development mode | Daily development |
+| `npm run dev` | 🎬 Start development server with hot reload | Daily development |
 | `npm run build` | 📦 Build for production | Before deployment |
-| `npm test` | 🧪 Run tests | Before committing |
-| `npm run lint` | ✨ Check code style | Keep code pretty! |
+| `npm run preview` | 👀 Preview production build locally | Testing production build |
+| `npm test` | 🧪 Run unit tests with Vitest | Before committing |
 
 ---
 
@@ -394,7 +354,7 @@ describe('calculateMatchScore', () => {
 | **Course** | Software Engineering |
 | **Professor** | Dr. Hoda |
 | **University** | Al Akhawayn University in Ifrane 🏛️ |
-| **Semester** | Fall 2024 |
+| **Semester** | Fall 2025 |
 | **Team Size** | 5 Amazing Students! 🌟 |
 
 </div>
