@@ -4,7 +4,8 @@
 
 ### *Find Your Perfect Study Buddy & Campus BFF* 💕
 
-🔗 **Live Demo:** uni-mates.vercel.app
+🔗 **Live Demo:** https://uni-mates.vercel.app/
+
 
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
