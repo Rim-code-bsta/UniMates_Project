@@ -66,7 +66,7 @@
 
 ### 💭 The Problem
 
-Ever felt like you're the only one studying for that 8 AM exam? Or wanted a gym buddy at 1 am but didn't know who to ask? Campus life can feel isolating when you can't find people who match your energy and schedule! 😔
+Ever felt like you're the only one studying for that 8 AM exam? Or wanted a gym buddy but didn't know who to ask? Campus life can feel isolating when you can't find people who match your energy and schedule! 😔
 
 ### 💖 Our Solution
 
@@ -128,32 +128,20 @@ Plus, with built-in safety features and university verification, you can connect
 
 <div align="center">
 
-### 💻 Frontend (Mobile App)
+### 💻 Frontend
 | Technology | Why We Love It |
 |:----------:|:---------------|
-| ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) | Beautiful cross-platform mobile experience 📱 |
+| ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | Beautiful UI library for building our app 💕 |
 | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) | Type-safe code = fewer bugs! 🐛 |
-| ![Redux](https://img.shields.io/badge/Redux-593D88?style=flat-square&logo=redux&logoColor=white) | Smooth state management ✨ |
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) | Super fast build tool ⚡ |
+| ![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | Beautiful styling made easy ✨ |
+| ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white) | Smooth page navigation 🧭 |
 
-### ⚙️ Backend (Server Magic)
+### 🤖 AI & Services
 | Technology | Why We Love It |
 |:----------:|:---------------|
-| ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white) | Fast & scalable API server 🚀 |
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | Powers our smart AI matching 🧠 |
-| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) | Reliable database storage 💾 |
-| ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) | Real-time updates & auth 🔥 |
-
-### 🤖 AI & Intelligence
-| Technology | Why We Love It |
-|:----------:|:---------------|
-| ![scikit-learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) | Smart matching algorithm 💡 |
-| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | Data processing power 📊 |
-
-### ☁️ Cloud & Services
-| Technology | Why We Love It |
-|:----------:|:---------------|
-| ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) | Secure cloud hosting 🌐 |
-| ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white) | Instant messaging magic ⚡ |
+| ![Google Gemini](https://img.shields.io/badge/Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white) | Smart AI-powered match insights 🧠 |
+| ![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square&logo=chart.js&logoColor=white) | Pretty analytics charts 📊 |
 
 </div>
 
